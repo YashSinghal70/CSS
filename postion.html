@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postion</title>
+    <style>
+.box
+{
+    background-color: #ff0000;
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+}
+.box2
+{
+    background-color: yellow;
+}
+.parent
+{
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    position: relative;
+ margin-top: 10px;
+}
+.box3
+{
+    background-color: rgb(106, 0, 255);
+    position: absolute;
+    /* z-index: -1; */
+       /* top: 0; */
+   right: 0;
+    /* left: 0; */
+    bottom: 0;
+}
+.box4
+{
+    background-color: rgb(55, 255, 0);
+}
+    </style>
+</head>
+<body>
+    
+<div class="box1 box">1</div>
+<div class="box2 box">2</div>
+<div class="parent">
+<div class="box3 box">3</div>
+</div>
+<div class="box4 box">4</div>
+
+
+</body>
+</html>

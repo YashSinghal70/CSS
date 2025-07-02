@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main
+        {
+margin: 200px auto;
+background-color: blue;
+height: 200px;
+width: 200px;
+transition: .3s all linear;
+        }
+        .main:hover{
+            cursor: pointer;
+            transform: translate(100px);
+            transform: translatey(100px);
+            transform: translatez(100px);
+
+            transform: rotatex(100deg);
+            transform: rotatey(100deg);
+            transform: rotatez(100deg);
+            
+            transform: scalex(1.2);
+            transform: scaley(1.2);
+            transform: scalez(1.2);
+
+            transform: skew(5deg,6deg);
+            transform: skew(6deg);
+            transform: skew(20deg);
+        }
+        .img1
+        {
+            overflow: hidden;
+            width: 400px;
+            height: 400px;
+            margin: 300px auto;
+        }
+        .img1 img{
+            width: 100%;
+            height: 100%;
+            transition: .3s all linear;
+        }
+        .img1 img:hover{
+
+            cursor: pointer;
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="main"></div>
+
+    <div class="img1">
+        <img src="https://img.freepik.com/free-photo/vibrant-peacock-feather-displays-iridescent-beauty-nature-generated-by-ai_188544-43394.jpg?t=st=1713875275~exp=1713878875~hmac=2633081466c20cebe624e7ac713f7c902ab12b61511ca8efc36bfea23bfaba7a&w=1060" alt="">
+    </div>
+</body>
+</html>
